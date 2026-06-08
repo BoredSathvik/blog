@@ -20,6 +20,7 @@ Now finally giving up on that back to where I started.
 
 ### What Worked
 1. Installed Ruby from [rubyinstaller][ruby] (look giraffe academy tutorial for more nuance)
+
 2. Run the following commands in cmd
 ```cmd
 gem install jekyll bundler
@@ -48,7 +49,9 @@ Make a git repo out of this stuff and uploded to github (I am not gonna explain 
 baseurl: "/<repo-name>"
 ```
 2. Add `Gemfile.lock` to `.gitignore` and delete the file in your local copy
-3. Go to your github repo -> `settings` -> `code and automation` -> `pages`<br> under `Build and deployment` change source to `Github Actions`
+
+3. Go to your github repo -> `settings` -> `code and automation` -> `pages`<br> under `Build and deployment` change source to `Github Actions`<br><br>
+![Build and deploy]({{site.baseurl}}/assets/images/2026-06-08-gh-actions-build-and-deployment.png)<br><br>
 4. Add jekyll.yml to `.github/workflows` folder and paste this into it.
 
 ```yml
