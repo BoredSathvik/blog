@@ -51,7 +51,7 @@ baseurl: "/<repo-name>"
 2. Add `Gemfile.lock` to `.gitignore` and delete the file in your local copy
 
 3. Go to your github repo -> `settings` -> `code and automation` -> `pages`<br> under `Build and deployment` change source to `Github Actions`<br><br>
-![Build and deploy]({{site.baseurl}}/assets/images/2026-06-08-gh-actions-build-and-deployment.png)<br><br>
+![Build and deploy]({{site.url}}{{site.baseurl}}/assets/images/2026-06-08-gh-actions-build-and-deployment.png)<br><br>
 4. Add jekyll.yml to `.github/workflows` folder and paste this into it.
 
 ```yml
